@@ -1,8 +1,3 @@
-
-# coding: utf-8
-
-# In[15]:
-
 #To check what 79 chars wide looks like as per PEP8
 #234567890123456789012345678901234567890123456789012345678901234567890123456789   
 #        1         2         3         4         5         6         7        7   
@@ -13,10 +8,10 @@
 #    away but the yellow square stays there until the snake moves on
 #2 - when players are one block long at the start they can pass through each
 #    other if they don't land on the same square
-#3 - The way I create the rectangles for the start and end screens could 
+#3 - The way I created the rectangles for the start and end screens could 
 #    do with refactoring. There's some repitition between update_score(),
 #    create_text() and game_over(). And I pass a lot of the same info when 
-#    calling create_text() so it could be made a lot cleaner.
+#    calling create_text().
 
 
 import pygame
@@ -338,5 +333,5 @@ while play_again:
                     loop_again = False
 
     
-pygame.quit() #you have to quit pygame like the corresponding part to the .init function at the start
+pygame.quit() #you have to quit pygame like the corresponding part to the pygame.init() function at the start
 
