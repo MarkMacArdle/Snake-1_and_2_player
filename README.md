@@ -12,4 +12,4 @@ Standard rules of eat the fruit for points and to grow, if you hit the wall or y
 # Highscore database functionality
 Snake_with_db.py works with a PostgreSQL database to hold high scores. Prompts the winner to input their first and last name at end of a game then displays a board of the top 10 for either the one or two player game as relevant.
 
-This does mean that running snake_with_db.py on a computer without PostgreSQL installed will give errors. Snake.py has the same game functionality just without the database.
+This does mean that running snake_with_db.py on a computer without PostgreSQL installed will give errors. If this is the case snake.py can be used. It contains the same game functionality just without the database.
