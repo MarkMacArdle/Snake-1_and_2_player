@@ -1,5 +1,5 @@
 # Snake - 1 and 2 player
-Classic snake with an additional 2 player mode. Made with in Python 3 with pygame. Created to practice using classes.
+Classic snake with an additional 2 player mode. Made with in Python 3 with pygame. Two versions for use with and without a PostgreSQL database for holding high scores.
 
 # How to Play
 Standard rules of eat the fruit for points and to grow, if you hit the wall or yourself you'll die.
